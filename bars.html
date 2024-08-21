@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LOG OUT </title>
+    <meta name="description" content="This is a simple game that you will guess the right number">
+   <!-- FONT AWESOME ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+<link rel="stylesheet" href="bars.css">
+    <!-- Height and Width -->
+    <meta http-equive="X-UA-Compatible" content="IE=edge"/>
+    <!-- For Different devives -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+
+<body>
+  <!-- START MENU -->
+<div class="menu">
+    <i class="fa-solid fa-arrow-left" style="margin-right:20px;" onclick="change()"></i><h1>Menu</h1>
+        <i class="fa-solid fa-magnifying-glass" id="search"></i>
+</div>
+  
+ <!-- END MENU -->
+ 
+ <!-- START FIRST SECTION -->
+ 
+ 
+ <div class="section_one">
+     <div class="box-img">
+         <img src="me.jpg" alt="">
+     </div>
+         <p style="font-size:20px;">Rasleen H'k <br><span>View your profile</span></p>
+         <i class="fa-solid fa-angle-down" id="angle-icon"></i>
+ </div>
+ <!-- END FIRST SECTION-->
+ 
+ <!-- START SECOND SECTION -->
+ <div class="section_one">
+     <i class="fa-solid fa-heart" style="color:red;"></i>
+     <p style="font-size:20px;">invite friends</p>
+ </div>
+ 
+ <!-- END SECOND SECTION -->
+ <!-- START THIRD SECTION -->
+ <div class="parent1">
+     <div class="section_three">
+      <i class="fa-solid fa-circle-play" style="color:#FC2C6A;font-size:23px;"></i>
+      <p>Reels</p>
+    </div>
+    
+    <div class="section_three">
+   <i class="fa-brands fa-facebook-messenger" style="color:#9C27B0;"></i>
+      <p>Messages</p>
+    </div>
+ </div>
+ 
+ <div class="parent2">
+     <div class="section_three">
+      <i class="fa-solid fa-user-group" style="color:blue"></i>
+      <p>Groups</p>
+    </div>
+    
+    <div class="section_three">
+      <i class="fa-solid fa-store" style="color:#0084FF" ></i>
+      <p>Marketplace</p>
+    </div>
+ </div>
+ 
+ 
+ <div class="parent2">
+     <div class="section_three">
+      <i class="fa-solid fa-video" id="video"></i>
+      <p>Video</p>
+    </div>
+    
+    <div class="section_three">
+      <i class="fa-solid fa-store" style="color:#0084FF" ></i>
+      <p>Video live</p>
+    </div>
+ </div>
+ 
+ 
+ <div class="parent2">
+     <div class="section_three">
+      <i class="fa-solid fa-flag" style="color:#ff5e00;"></i>
+      <p>Pages</p>
+    </div>
+    
+    <div class="section_three">
+      <i class="fa-solid fa-bookmark" style="color:#9a15ff;"></i>
+      <p>Saved</p>
+    </div>
+ </div>
+ 
+ 
+ <div class="parent2">
+     <div class="section_three">
+      <i class="fa-solid fa-clock" style="color:#2b58ff;"></i>
+      <p>Memories</p>
+    </div>
+    
+    <div class="section_three">
+      <i class="fa-regular fa-calendar-days" style="color:#0003ff;"></i>
+      <p>Events</p>
+    </div>
+ </div>
+ 
+ 
+ <div class="parent2">
+     <div class="section_three">
+      <i class="fa-solid fa-gamepad" style="color:#0084FF"></i>
+      <p>Games</p>
+    </div>
+    
+    <div class="section_three">
+      <i class="fa-solid fa-circle-check" style="color:#0084FF"></i>
+      <p>Meta Verifed</p>
+    </div>
+ </div>
+ 
+ <div class="section_three">
+      <i class="fa-regular fa-newspaper" style="color:#ff7300;"></i>
+      <p>Feeds</p>
+    </div>
+ <!-- END THIRD SECTION -->
+ 
+ <hr style="margin:20px 0;">
+ 
+ <div class="setting_section">
+     
+ <i class="fa-solid fa-gear" style="font-size:22px;"></i> <p>Settings & privacy</p><i class="fa-solid fa-angle-down" id="icon"></i> 
+ </div>
+ 
+ <!-- START DIVS -->
+ 
+ <div class="main_div">
+     <i class="fa-solid fa-user"></i><p> Settings</p>
+ </div>
+
+<div class="div">
+    <i class="fa-solid fa-file-invoice"></i><p>Orders and payments </p>
+ </div>
+ 
+ <div class="div">
+     <i class="fa-solid fa-moon" style="color:#B6C5CC"></i>
+     <p>Dark mode</p>
+ </div>
+ 
+ <div class="div">
+     <i class="fa-solid fa-font"></i>
+     <p>Language</p>
+ </div>
+ 
+ <div class="div">
+     <i class="fa-solid fa-signal"></i>
+     <p>Data saver</p>
+ </div>
+<div class="div">
+     <i class='fas fa-broom'></i>
+     <p>Clear space</p>
+ </div>
+ 
+ <hr style="margin:20px 0;">
+
+<div class="support">
+   <i class="fa-solid fa-circle-question" style="color:gray;font-size:25px;"></i><p>Help & support </p><i class="fa-solid fa-angle-down" id="icon"></i> 
+</div>
+ 
+ <div class="main_div">
+    <i class="fa-regular fa-life-ring" style="font-size:25px;"></i><p>Help</p> 
+ </div>
+ <div class="div">
+     <i class="fa-regular fa-envelope"></i>
+     <p>Support Inbox</p>
+ </div>
+ <div class="div">
+    <i class="fa-solid fa-book"></i>
+    <p>About</p>
+ </div>
+ <div class="div">
+     <i class="fa-solid fa-triangle-exclamation"></i>
+     <p>Report a problem</p>
+ </div>
+ 
+ <hr style="margin:20px 0;">
+
+ <div class="last_div" onclick="Callalert()">
+     <i class="fa-solid fa-door-open"></i>
+     <p>Log out</p>
+ </div>
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ <script src="bars.js"></script>
+</body>
+</html>
